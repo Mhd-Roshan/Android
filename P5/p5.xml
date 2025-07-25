@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STAR LINK"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="Sreelakshmi R J"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineer"
+        android:textSize="17sp"
+        android:layout_below="@id/fn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp" />
+
+    <View
+        android:id="@+id/Line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@id/title"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Line"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="23dp"
+        android:text="+1 800 123 4567"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Starlink HQ, Hawthorne, CA"
+        android:textSize="16sp"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:text="Sreelakshmi R J@starlink.com" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:autoLink="web"
+        android:text="www.starlink.com" />
+
+
+</RelativeLayout>
+
